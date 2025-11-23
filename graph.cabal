@@ -4,10 +4,10 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 694a731271cff31080521f4962bd62b6b61207c69499faa7d78446371c1ece76
+-- hash: a5558edc88a05362c22c4a90d3af32d553b6af0c0aa1eddceca71d46d4824166
 
 name:           graph
-version:        0.6.0.1
+version:        0.6.0.2
 synopsis:       Graph library using adjacency list representation
 description:    Please see the README on GitHub at <https://github.com/tosku/graph#readme>
 category:       Graph theory
@@ -15,7 +15,7 @@ homepage:       https://github.com/tosku/graph#readme
 bug-reports:    https://github.com/tosku/graph/issues
 author:         Thodoris Papakonstantinou
 maintainer:     hi@tpapak.com
-copyright:      Thodoris Papakonstantinou, 2024
+copyright:      Thodoris Papakonstantinou, 2025
 license:        GPL-3
 license-file:   LICENSE
 build-type:     Simple
@@ -47,7 +47,7 @@ library
       Unique >=0.4.7.9
     , base >=4.8
     , binary >=0.8.6.0
-    , containers >=0.5.10.2
+    , containers >=0.8
     , either-unwrap >=1.1
     , mtl >=2.2.1
     , text >=1.2.2.2

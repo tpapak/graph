@@ -14,7 +14,6 @@ a list of the adjacent vertices of a given vertex,
 which is the function equivalent of the adjacency list.
  -}
 
-{-# LANGUAGE BangPatterns #-}  
 {-# LANGUAGE DeriveGeneric #-}  
 
 module Data.Graph.AdjacencyList

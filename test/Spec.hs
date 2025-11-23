@@ -10,14 +10,14 @@ import Test.Graph.AdjacencyList.PushRelabel.Pure as PRP
 main :: IO ()
 main = do
   putStrLn "\n"
-  putStrLn $ "Test Begins"
-  T.reportTests $ 
-    A.fastTests 
-    ++ G.fastTests 
-    ++ BFS.fastTests 
-    ++ DFS.fastTests
-    ++ PRP.fastTests
-    ++ WFI.fastTests
-    ++ Met.fastTests
-  T.reportTestsIO 
+  putStrLn "Test Begins"
+  T.reportTests $
+    A.fastTests
+      ++ G.fastTests
+      ++ BFS.fastTests
+      ++ DFS.fastTests
+      ++ PRP.fastTests
+      ++ WFI.fastTests
+      ++ Met.fastTests
+  T.reportTestsIO
     Met.ioTests
